@@ -1,26 +1,26 @@
 # Sales Data Cleaning & Profiling Project
 
-This project demonstrates an end-to-end mini data pipeline using a public sales dataset.  
-It covers loading raw CSVs, implementing custom data structures, cleaning rules, profiling statistics, feature engineering, and lightweight aggregations.  
-The goal is to practice reproducible analysis, function-driven design, and structured data documentation through a notebook format.  
-Outputs are saved into organized subfolders (`data/outputs/`) for JSON, CSV, and reporting.
+This project demonstrates a complete data processing workflow using a public e-commerce dataset.  
+It includes loading raw CSV data, implementing a custom Python class for cleaning and aggregation, profiling statistics, data transformations, feature engineering, and saving cleaned outputs.  
+The goal is to practice structured data processing, modular coding, and documenting a dataset through a Jupyter notebook format.  
+Outputs are organized in subfolders (`/data/outputs/`) for clarity and reproducibility.
 
 ## Quick Start
 
 ```bash
-# create a virtual environment
+# Create a virtual environment
 python -m venv venv
 
-# activate environment
-# On Mac/Linux:
+# Activate environment
+# Mac/Linux:
 source venv/bin/activate
-# On Windows:
+# Windows:
 venv\Scripts\activate
 
-# install dependencies
+# Install dependencies
 pip install -r requirements.txt
 
-# launch Jupyter
+# Launch Jupyter Notebook
 jupyter notebook
 
 ```
@@ -33,11 +33,7 @@ jupyter notebook
 ## Secondary metadata (Product Catalogue / City lookup): 
 public open-data catalogue samples & synthetic enhancements created for coursework.
 
-##How to use:
-
-## Place this file in your project root as requirements.txt.
-
-Run:
+## Run:
 ```bash
 python -m venv venv
 source venv/bin/activate   # Mac/Linux
