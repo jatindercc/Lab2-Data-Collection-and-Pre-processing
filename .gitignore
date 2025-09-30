@@ -1,0 +1,31 @@
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS-specific cruft
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Large data files (>20 MB) — keep only samples in Git
+# (Git itself cannot filter by size automatically, so use patterns)
+data/raw/*
+data/processed/*
+!data/raw/sample_*.csv
+!data/processed/sample_*.csv
+
+# If you want to enforce size limits, configure Git LFS or pre-commit hooks
+# Example: track all CSVs with Git LFS
+#   git lfs track "*.csv"
