@@ -23,9 +23,9 @@ pip install -r requirements.txt
 # launch Jupyter
 jupyter notebook
 
+```
 
-
-### Data Sources
+## Data Sources
 
 ## Primary dataset (1000 Sales Records): ExcelBIAnalytics sample 
  (trimmed to 500 rows for this project)
@@ -38,8 +38,10 @@ public open-data catalogue samples & synthetic enhancements created for coursewo
 ## Place this file in your project root as requirements.txt.
 
 Run:
+```bash
 python -m venv venv
 source venv/bin/activate   # Mac/Linux
 venv\Scripts\activate      # Windows
 pip install -r requirements.txt
 jupyter notebook
+```
